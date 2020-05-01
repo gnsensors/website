@@ -4,7 +4,7 @@ Step 1:  Create python virtual env:
 
 Navigate into directory and run the following command:
 
-`python/\s -m venv venv`
+`python -m venv venv`
 
 When this is complete, start the virtual environment
 
@@ -21,5 +21,7 @@ Step 3:
 Set Flask up to run:
 
 `$env:FLASK_APP = "app.py"`
-`$env:FLASK_ENV = development`
+
+`$env:FLASK_ENV = "development"`
+
 `flask run`
